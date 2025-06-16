@@ -1,0 +1,142 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    
+}
+.inicial{
+    background-image: url('https://placehold.co/2000x500');
+     background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-size: 20px;
+   border-radius: 10px;
+}
+.inicial h1:hover{
+    color: black;
+    background-color: blanchedalmond;
+    transition: color 0.3s ease;
+    border-radius: 10px;
+}
+.menu li a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline;
+  }
+
+.menu li a:hover {
+    background-color: blanchedalmond;
+}
+#sobre {
+  text-align: center;
+  font-size: 25px;
+   padding: 20px;}
+
+#sobre p{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    display: block;
+}
+#sobre h2:hover {
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: black;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    transition: color 0.8s ease;
+}
+#sobre p:hover{
+    color: black;
+    background-color:blanchedalmond;
+    transition: color 0.3s ease;
+    border-radius: 10px;
+    }
+
+
+
+
+
+
+
+
+
+/* Cards Section */
+.cards-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.cards-section h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+    flex-grow: 1;
+    /* Faz o conteúdo crescer para preencher o card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Empurra o botão para baixo */
+}
+
+.card-content p {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+    /* Alinha o botão à esquerda se o texto for curto */
+}
+
+.btn:hover {
+    background-color: #555;
+    
+}
+.preco{
+    color: #000;
+    border-radius: 5px;
+}
+/*Fim cards*/
